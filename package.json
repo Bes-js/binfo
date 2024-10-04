@@ -1,0 +1,77 @@
+{
+  "name": "binfo",
+  "description": "A high-performance npm package that provides card BIN (Bank Identification Number) information quickly and efficiently with SQL.",
+  "version": "1.0.1",
+  "main": "src/index.ts",
+  "typings": "src/index.d.ts",
+  "exports": {
+    "import": {
+      "types": "./dist/index.d.mts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.mjs"
+    },
+    "require": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "types": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.d.ts",
+      "default": "./dist/index.d.ts"
+    },
+    "default": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.mjs"
+    },
+    "node": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bes-js/binfo.git"
+  },
+  "scripts": {
+    "test": "ts-node test.ts",
+    "build": "tsup src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write ."
+  },
+  "keywords": [
+    "binfo",
+    "bin",
+    "bins",
+    "binlist",
+    "bin-list",
+    "lookup",
+    "cardinfo",
+    "check",
+    "checker",
+    "card",
+    "card-bin",
+    "card-bin-list",
+    "sqlite",
+    "minify"
+  ],
+  "author": {
+    "name": "Bes-js",
+    "url": "https://github.com/Bes-js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bes-js/binfo/issues"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "cherry3": "^5.2.0",
+    "sqlite3": "^5.1.7"
+  }
+}
