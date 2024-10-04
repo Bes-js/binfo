@@ -1,5 +1,7 @@
 <br/>
-<img src="./binfo.png">
+<p align="center">
+<img src="./binfo.png" align="center">
+</p>
 <h4 align="center">A high-performance npm package that provides card BIN (Bank Identification Number) information quickly and efficiently with SQL.</h6>
 <p align="center">
 <img src="https://img.shields.io/npm/v/binfo?style=for-the-badge&logo=npm&logoColor=red">
